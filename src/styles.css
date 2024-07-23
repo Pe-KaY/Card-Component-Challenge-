@@ -1,18 +1,21 @@
-*,::before,::after{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-html{
-    scroll-snap-type: y mandatory;
+html {
+  scroll-snap-type: y mandatory;
+  font-family: "Poppings", sans-serif;
 }
 
-img{
-    max-width: 100%;
-    display: block;
-    user-select: none;
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
+img {
+  max-width: 100%;
+  display: block;
+  user-select: none;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
